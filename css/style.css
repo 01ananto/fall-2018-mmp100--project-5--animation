@@ -4,7 +4,7 @@
    }
 
    100% {
-      background-position: 6000px 0;
+      background-position: -6000px 0;
    }
 }
 
@@ -14,7 +14,7 @@
    }
 
    100% {
-      background-position: 6000px -200px;
+      background-position: -6000px -200px;
    }
 }
 
@@ -24,17 +24,17 @@
    }
 
    100% {
-      background-position: 6000px -400px;
+      background-position: -6000px -400px;
    }
 }
 
 
 
-#run {
+#animation {
    animation: row1 1s steps(3) none,
       row2 1s steps(3) 1s none,
       row3 1s steps(3) 2s none;
    width: 200px;
    height: 200px;
-   background-image: image(sprite.png);
+   background-image: url('../img/sprite.png');
 }
