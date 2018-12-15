@@ -28,12 +28,11 @@
    }
 }
 
-
-
 #animation {
-   animation: row1 1s steps(3) none,
-      row2 1s steps(3) 1s none,
-      row3 1s steps(3) 2s none;
+   animation:
+      row1 2s steps(30) 0s none,
+      row2 2s steps(30) 2s none,
+      row3 2s steps(30) 4s none;
    width: 200px;
    height: 200px;
    background-image: url('../img/sprite.png');
